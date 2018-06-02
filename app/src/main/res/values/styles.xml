@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ToolbarSubtitleTextStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="Theme.AppCompat.Light">
+        <item name="android:textColorPrimary">@color/colorSuccess</item>
+        <item name="android:textColorSecondary">@color/colorSuccess</item>
+        <item name="actionMenuTextColor">@color/colorSuccess</item>
+        <item name="autoCompleteTextViewStyle">@style/ToolbarSearchAutoCompleteTextView</item>
+        <item name="searchViewStyle">@style/ToolbarSearchViewTheme</item>
+    </style>
+
+    <style name="ToolbarSearchAutoCompleteTextView" parent="Widget.AppCompat.Light.AutoCompleteTextView">
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:textColorHint">@color/textColorHint</item>
+    </style>
+
+    <style name="ToolbarSearchViewTheme" parent="Base.Widget.AppCompat.SearchView.ActionBar">
+        <item name="searchHintIcon">@null</item>
+    </style>
+
+    <style name="ToolbarTitleTextStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/header"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/experts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_start"
+                android:paddingTop="@dimen/padding_top"
+                android:textSize="@dimen/main_item_text_size"
+                android:text="Специалисты"
+                android:clickable="true"
+                android:focusable="true" />
+            <TextView
+                android:id="@+id/articles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_start"
+                android:paddingTop="@dimen/padding_top"
+                android:textSize="@dimen/main_item_text_size"
+                android:text="Тексты" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_start"
+                android:paddingTop="@dimen/padding_top"
+                android:textSize="@dimen/main_item_text_size"
+                android:text="Календарь" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_start"
+                android:paddingTop="@dimen/padding_top"
+                android:textSize="@dimen/main_item_text_size"
+                android:text="Бюджет" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_start"
+                android:paddingTop="@dimen/padding_top"
+                android:textSize="@dimen/main_item_text_size"
+                android:text="Тайминг" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_start"
+                android:paddingTop="@dimen/padding_top"
+                android:textSize="@dimen/main_item_text_size"
+                android:text="Избранное" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_start"
+                android:paddingTop="@dimen/padding_top"
+                android:textSize="@dimen/main_item_text_size"
+                android:text="О проекте" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_top"
+                android:textSize="16sp"
+                android:layout_gravity="center_horizontal"
+                android:text="Подать заявку"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
