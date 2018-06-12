@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">WeddingSecretary</string>
+    <array name="planets_array">
+        qwer,
+        sdfg,
+        asdgd
+    </array>
 </resources>

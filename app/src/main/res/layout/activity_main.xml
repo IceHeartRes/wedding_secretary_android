@@ -36,6 +36,7 @@
                 android:textSize="@dimen/main_item_text_size"
                 android:text="Тексты" />
             <TextView
+                android:id="@+id/calendar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/margin_start"

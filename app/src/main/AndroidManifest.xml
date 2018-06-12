@@ -20,7 +20,10 @@
         <activity android:name=".SpecialityItem" />
         <activity android:name=".Personal" />
         <activity android:name=".Articles" />
-        <activity android:name=".Article"></activity>
+        <activity android:name=".Article" />
+        <activity android:name=".Calendar" />
+        <activity android:name=".AddCalendarEvent" />
+        <activity android:name=".CalendarEvents"></activity>
     </application>
 
 </manifest>
