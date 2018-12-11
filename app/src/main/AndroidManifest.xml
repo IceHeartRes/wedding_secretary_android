@@ -23,7 +23,8 @@
         <activity android:name=".Article" />
         <activity android:name=".Calendar" />
         <activity android:name=".AddCalendarEvent" />
-        <activity android:name=".CalendarEvents"></activity>
+        <activity android:name=".CalendarEvents" />
+        <activity android:name=".Budget"></activity>
     </application>
 
 </manifest>
